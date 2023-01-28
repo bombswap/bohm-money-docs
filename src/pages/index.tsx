@@ -17,7 +17,7 @@ import {
   ChatBubbleLeftIcon,
   CodeBracketIcon,
   BuildingLibraryIcon,
-  MapIcon
+  MapIcon,
 } from "@heroicons/react/24/outline";
 
 export const actions = [
@@ -27,18 +27,18 @@ export const actions = [
     to: "./main/overview/intro",
     text: `What is Olympus Protocol?`,
   },
-  {
-    title: "Governance",
-    icon: BuildingLibraryIcon,
-    to: "./main/governance/dao",
-    text: `An overview of Olympus Governance`,
-  },
-  {
-    title: "Technical",
-    icon: BookOpenIcon,
-    to: "./main/technical/overview",
-    text: `Technical information and documentation`,
-  }
+  // {
+  //   title: "Governance",
+  //   icon: BuildingLibraryIcon,
+  //   to: "./main/governance/dao",
+  //   text: `An overview of Olympus Governance`,
+  // },
+  // {
+  //   title: "Technical",
+  //   icon: BookOpenIcon,
+  //   to: "./main/technical/overview",
+  //   text: `Technical information and documentation`,
+  // }
   /*
   {
     title: "User Guides",
@@ -50,30 +50,30 @@ export const actions = [
 ];
 
 export const github = [
-  {
-    title: "olympus-v3",
-    href: "https://github.com/OlympusDAO/olympus-v3",
-    icon: CodeBracketIcon,
-  },
-  {
-    title: "olympus-contracts (OLD)",
-    href: "https://github.com/OlympusDAO/olympus-contracts",
-    icon: CodeBracketIcon,
-  },
-  {
-    title: "olympus-frontend",
-    href: "https://github.com/OlympusDAO/olympus-frontend",
-    icon: CodeBracketIcon,
-  },
-  {
-    title: "@olympusdao/incur-debt",
-    href: "https://github.com/OlympusDAO/incur-debt-ts",
-  },
-  {
-    title: "protocol-metrics-subgraph",
-    href: "https://github.com/OlympusDAO/olympus-protocol-metrics-subgraph",
-    icon: CodeBracketIcon,
-  },
+  // {
+  //   title: "olympus-v3",
+  //   href: "https://github.com/OlympusDAO/olympus-v3",
+  //   icon: CodeBracketIcon,
+  // },
+  // {
+  //   title: "olympus-contracts (OLD)",
+  //   href: "https://github.com/OlympusDAO/olympus-contracts",
+  //   icon: CodeBracketIcon,
+  // },
+  // {
+  //   title: "olympus-frontend",
+  //   href: "https://github.com/OlympusDAO/olympus-frontend",
+  //   icon: CodeBracketIcon,
+  // },
+  // {
+  //   title: "@olympusdao/incur-debt",
+  //   href: "https://github.com/OlympusDAO/incur-debt-ts",
+  // },
+  // {
+  //   title: "protocol-metrics-subgraph",
+  //   href: "https://github.com/OlympusDAO/olympus-protocol-metrics-subgraph",
+  //   icon: CodeBracketIcon,
+  // },
 ];
 
 export const Guides = [
